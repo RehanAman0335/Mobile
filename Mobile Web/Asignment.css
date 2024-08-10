@@ -1,0 +1,173 @@
+*
+{
+    /* border: solid green 1px; */
+    margin: auto;
+    padding: auto;
+}
+.container-fluid
+{
+    height: 1000px;
+    width: 1500px;
+    background-color: brown;
+    overflow: hidden;
+}
+img
+{
+    height: 50px;
+    width: 150px;
+
+}
+.Search
+{
+    margin-bottom: 10px;
+    margin-left: 500px;
+}
+ nav
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+       
+        
+}
+nav i
+{
+    width: 40px;
+    
+    
+}
+nav ul
+{
+    
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    color: white;
+    
+}
+.active, a, .nav_menu  
+{
+    background-color: rgb(4, 300, 100);
+}
+nav ul li
+{
+    
+    font-size: 25px;
+    margin-left: 100px;
+    color: white;S
+
+}
+nav .subMenu
+{
+    display: none;
+}
+
+.item1:hover .subMenu
+{
+    display: block;
+    
+}
+
+
+
+.Slider
+{
+    height: 350px;
+    width: 5000px;
+    animation: 10s container infinite
+    
+}
+.Slider img
+{
+    margin-left: -3px;
+    height: 350px;
+    width: 1200px;
+}
+@keyframes .Slider
+{
+    0% {margin-left: 0px;}
+    25% {margin-left: -1200px;}
+    50% {margin-left: -2400px;}
+    75% {margin-left: -3600px;}
+    100% {margin-left: -4800px;}
+    
+}
+
+.brand
+{
+    height: 50px;
+    width: 1500px;
+    background-color: orange;
+    
+}
+
+.b 
+{
+    display: flex;
+    flex-direction:row;
+    margin-left: 100px;
+    margin-top: 10px;
+    list-style: none;
+    font-size: 25px;
+}
+
+.b li
+{
+    margin-top: 7px;
+    border: solid black 2px;
+    background-color: darkgreen;
+    
+}
+a
+{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    
+}
+
+.image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.image img
+{
+    height: 175px;
+    width: 350px;
+}
+
+p
+{
+    font-size: 15px;        
+    text-align: center;
+    background-color: blue
+
+}
+
+.i
+{
+   
+}
+
+footer
+{
+    height: 75px;
+    width: 1500px;
+    margin-top: 10px;
+    background-color: teal;
+}
+footer ul
+{
+ display: flex;
+ flex-direction: row;
+ list-style: none;
+ 
+}
+footer ul li
+{
+    font-size: large;
+    margin-top: 35px;
+
+}
